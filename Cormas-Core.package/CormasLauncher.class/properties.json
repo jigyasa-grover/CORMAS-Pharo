@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "UIApplicationModel",
+	"category" : "Cormas-Core-Interface",
+	"classinstvars" : [
+		"theVisualLauncher"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CormasLauncher",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PassiveObject",
+	"category" : "Cormas-Core-Entities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"patch",
+		"center"
+	],
+	"name" : "ObjectLocation",
+	"type" : "normal"
+}

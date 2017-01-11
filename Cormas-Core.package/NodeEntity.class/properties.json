@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "NetworkComponentEntity",
+	"category" : "Cormas-Core-Entities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arcs",
+		"replaceNodeWhileMoving"
+	],
+	"name" : "NodeEntity",
+	"type" : "normal"
+}

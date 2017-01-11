@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Cormas-Core-Interface",
+	"classinstvars" : [
+		"imLibPage"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"observer"
+	],
+	"name" : "BitmapImageLibrary",
+	"type" : "normal"
+}

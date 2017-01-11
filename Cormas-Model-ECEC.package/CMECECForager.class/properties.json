@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "AgentLocation",
+	"category" : "Cormas-Model-ECEC",
+	"classinstvars" : [
+		"fertilityThreshold",
+		"catabolicRate",
+		"harvestRate"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"energy"
+	],
+	"name" : "CMECECForager",
+	"type" : "normal"
+}

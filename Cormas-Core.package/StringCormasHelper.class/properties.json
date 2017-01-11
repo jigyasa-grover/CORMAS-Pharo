@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CharacterArrayCormasHelper",
+	"category" : "Cormas-Core-Others",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "StringCormasHelper",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpatialEntityElement",
+	"category" : "Cormas-Core-Entities",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"state",
+		"bufferState"
+	],
+	"name" : "SpatialEntityCell",
+	"type" : "normal"
+}

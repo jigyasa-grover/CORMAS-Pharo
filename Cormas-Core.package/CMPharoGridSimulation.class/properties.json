@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RTView",
+	"category" : "Cormas-Core-PharoSpecific",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"anim"
+	],
+	"name" : "CMPharoGridSimulation",
+	"type" : "normal"
+}

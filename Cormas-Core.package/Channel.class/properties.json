@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "Cormas-Core-Communication",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"population",
+		"listeFonctionObs",
+		"messages"
+	],
+	"name" : "Channel",
+	"type" : "normal"
+}
