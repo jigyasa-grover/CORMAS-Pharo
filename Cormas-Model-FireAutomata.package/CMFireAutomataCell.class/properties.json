@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "SergeStinckwich 4/3/2016 14:55",
+	"super" : "SpatialEntityCell",
+	"category" : "Cormas-Model-FireAutomata",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CMFireAutomataCell",
+	"type" : "normal"
+}
