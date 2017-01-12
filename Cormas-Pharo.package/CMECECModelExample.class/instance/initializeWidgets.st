@@ -21,6 +21,18 @@ initializeWidgets
 			group
 				addItem: [ :item | 
 					item
+						name: 'Run';
+						icon: (self iconNamed: #testGreen);
+						action: [  ]  ].
+			group
+				addItem: [ :item | 
+					item
+						name: 'Stop';
+						icon: (self iconNamed: #smallWarningIcon);
+						action: [  ]  ].
+			group
+				addItem: [ :item | 
+					item
 						name: 'File';
 						icon: (self iconNamed: #openIcon);
 						subMenu: self subMenu ].
