@@ -10,7 +10,8 @@
 		"diagram",
 		"button",
 		"label",
-		"menu"
+		"menu",
+		"manager"
 	],
 	"name" : "CMECECModelExample",
 	"type" : "normal"

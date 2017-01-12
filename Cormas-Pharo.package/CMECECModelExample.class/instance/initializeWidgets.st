@@ -1,6 +1,10 @@
 initialization
 initializeWidgets
 
+	manager := self newTabManager.
+	manager whenTabSelected: [ self updateTitle ].
+	self populateManager.
+
 	label := self newLabel.
 	label label: 'Simple example of combining Roassal and Spec for CORMAS' .
 	
