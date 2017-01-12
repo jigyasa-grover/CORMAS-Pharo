@@ -1,3 +1,3 @@
 initialization
 initializePresenter
-	button action: [ self loadSimulation. ].
+	"button action: [ self loadSimulation. ]."

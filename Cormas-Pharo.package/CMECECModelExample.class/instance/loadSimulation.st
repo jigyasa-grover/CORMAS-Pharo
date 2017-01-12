@@ -3,7 +3,7 @@ loadSimulation
 
 "Vegetation grid animation without foragers"
 	
-	| aModel n c es anim popup menu|
+	| aModel n c es anim popup|
 	
 	aModel := CMECECModel 
 		initialize;
@@ -32,9 +32,6 @@ loadSimulation
 	
 	"Adding a popup for object inspection on left click"
 	es do: [:element | element when: TRMouseLeftClick do: [ :evt | element model inspect ]].
-	
-	menu := RTMenuBuilder new view: view. 
-	menu menu: 'Visualize' background: Color red callback: [ CMECECModel visualize ].
 	
 	RTGridLayout new
 		gapSize: 0;
