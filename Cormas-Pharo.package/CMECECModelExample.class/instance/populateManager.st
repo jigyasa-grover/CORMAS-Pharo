@@ -1,4 +1,4 @@
-initialization
+tabs manager
 populateManager
 
 	manager

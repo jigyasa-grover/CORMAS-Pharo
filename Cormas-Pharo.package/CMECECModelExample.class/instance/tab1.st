@@ -1,10 +1,10 @@
-as yet unclassified
+tabs
 tab1
 	| tab |
 	tab := self newTab.
 	tab
 		label: 'Tab1';
-		icon: (tab iconNamed: #nautilusIcon);
+		icon: (tab iconNamed: #openIcon);
 		model:
 			(ClassMethodBrowser new
 				classes: Smalltalk globals allClasses;

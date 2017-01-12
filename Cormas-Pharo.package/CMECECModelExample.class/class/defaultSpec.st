@@ -5,7 +5,7 @@ defaultSpec
 
 		newColumn: [ :tcol|
 					tcol
-					   add: #manager;
 						add: #label height: self toolbarHeight;
 						add: #menu height: self toolbarHeight;
-						add: #diagram ].
+						add: #diagram;
+						add: #manager height: 100].

@@ -1,4 +1,4 @@
-as yet unclassified
+tabs
 tab3
 	| tab |
 	tab := self newTab.
