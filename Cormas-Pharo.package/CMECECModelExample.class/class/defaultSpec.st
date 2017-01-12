@@ -6,4 +6,5 @@ defaultSpec
 					tcol
 						add: #label;
 						add: #button;
+						add: #menu height: self toolbarHeight;
 						add: #diagram ].
