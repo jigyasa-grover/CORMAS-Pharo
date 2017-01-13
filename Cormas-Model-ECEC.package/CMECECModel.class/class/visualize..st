@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 visualize: aCMModel
 	
 	| data g ds c |
@@ -31,7 +31,7 @@ visualize: aCMModel
 	b slice: #yourself.
 	b labeled.
 	b build.
-   c group: #pie."
+	c group: #pie."
 
 	"Layouting"
     "c move: #graph onTheLeftOf: #pie."

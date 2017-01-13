@@ -8,10 +8,11 @@
 	"instvars" : [
 		"restrainedInitialNumber",
 		"unrestrainedInitialNumber",
-		"theCMECECRestraineds",
 		"theCMECECUnrestraineds",
 		"theCMECECVegetationUnits",
-		"theRestraineds"
+		"theRestraineds",
+		"aUnit",
+		"aCriteria"
 	],
 	"name" : "CMECECModel",
 	"type" : "normal"

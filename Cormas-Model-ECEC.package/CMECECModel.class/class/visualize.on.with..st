@@ -1,16 +1,16 @@
-as yet unclassified
-visualize: aCMModel with: aUnit
+visualization
+visualize: aCMModel on: aUnit with: aCriteria
 	
-	| data g ds b c |
+	| data g ds c |
 	
-	data := Array new: aCMModel theCMECECVegetationUnits size. 
-	data := aCMModel theCMECECVegetationUnits collect: [:ea | ea biomass. ].
+	data := Array new: (aCMModel perform: aUnit) size. 
+	data := (aCMModel perform: aUnit) collect: [:entity | entity perform: aCriteria ].
 	
 	c := RTComposer new.
 	
 	"First visualization"
 	g := RTGrapher new.
-	g extent: 200 @ 200.
+	g extent: World width/1.5 @ World height/1.5.
 	g view: c view.
 	
 	ds := RTData new.
@@ -31,7 +31,7 @@ visualize: aCMModel with: aUnit
 	b slice: #yourself.
 	b labeled.
 	b build.
-   c group: #pie."
+	c group: #pie."
 
 	"Layouting"
     "c move: #graph onTheLeftOf: #pie."

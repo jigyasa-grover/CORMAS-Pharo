@@ -21,7 +21,9 @@ initializeWidgets
 					item
 						name: 'Visualize';
 						icon: (self iconNamed: #visualizeIcon);
-						action: [ CMECECModel visualize: self aModel. ]  ].
+						action: [ CMECECModel visualize: self aModel 
+													 on: #theCMECECVegetationUnits
+													 with: #biomass. ]  ].
 			group
 				addItem: [ :item | 
 					item
