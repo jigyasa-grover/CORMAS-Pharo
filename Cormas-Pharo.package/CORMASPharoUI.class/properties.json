@@ -11,7 +11,8 @@
 		"button",
 		"label",
 		"menu",
-		"manager"
+		"manager",
+		"aModel"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"

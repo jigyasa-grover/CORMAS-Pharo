@@ -3,7 +3,7 @@ example3
 
 	"Vegetation grid animation without foragers"
 	
-	| aModel v n c es anim popup menu|
+	|aModel v n c es anim popup menu|
 	
 	aModel := self
 		initialize;
@@ -34,7 +34,7 @@ example3
 	es do: [:element | element when: TRMouseLeftClick do: [ :evt | element model inspect ]].
 	
 	menu := RTMenuBuilder new view: v. 
-	menu menu: 'Visualize' background: Color red callback: [ self visualize ].
+	menu menu: 'Visualize' background: Color red callback: [ self visualize. ].
 	
 	RTGridLayout new
 		gapSize: 0;

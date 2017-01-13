@@ -21,7 +21,7 @@ initializeWidgets
 					item
 						name: 'Visualize';
 						icon: (self iconNamed: #visualizeIcon);
-						action: [ CMECECModel visualize. ]  ].
+						action: [ CMECECModel visualize: self aModel. ]  ].
 			group
 				addItem: [ :item | 
 					item

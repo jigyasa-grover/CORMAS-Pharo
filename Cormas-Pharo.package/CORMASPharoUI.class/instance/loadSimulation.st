@@ -3,7 +3,7 @@ loadSimulation
 
 "Vegetation grid animation without foragers"
 	
-	| aModel n c es anim popup|
+	|n c es anim popup|
 	
 	aModel := CMECECModel 
 		initialize;

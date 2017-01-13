@@ -1,7 +1,7 @@
 as yet unclassified
-visualize: aCMModel
+visualize: aCMModel with: aUnit
 	
-	| data g ds c |
+	| data g ds b c |
 	
 	data := Array new: aCMModel theCMECECVegetationUnits size. 
 	data := aCMModel theCMECECVegetationUnits collect: [:ea | ea biomass. ].
@@ -10,7 +10,7 @@ visualize: aCMModel
 	
 	"First visualization"
 	g := RTGrapher new.
-	g extent: World width/1.5 @ World height/1.5.
+	g extent: 200 @ 200.
 	g view: c view.
 	
 	ds := RTData new.
