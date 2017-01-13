@@ -1,7 +1,7 @@
 visualization
 visualize
 	
-	| data g ds b c |
+	|data g ds b c |
 	data := #(20 30 50 100).
 	
 	"v := RTView new."
