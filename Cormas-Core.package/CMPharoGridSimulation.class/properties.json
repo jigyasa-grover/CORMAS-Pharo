@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"super" : "RTView",
 	"category" : "Cormas-Core-PharoSpecific",
 	"classinstvars" : [ ],

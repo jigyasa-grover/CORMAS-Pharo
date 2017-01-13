@@ -2,6 +2,6 @@ instance creation
 open
 	<script>
 	"
-	CMECECModelExample open
+	CORMASPharoUI open
 	"
 	^ self new openWithSpec.
