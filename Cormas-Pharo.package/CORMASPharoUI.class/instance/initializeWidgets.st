@@ -14,16 +14,14 @@ initializeWidgets
 				addItem: [ :item | 
 					item
 						name: 'Load';
-						icon: (self iconNamed: #loadIcon);
+						icon: (self iconNamed: #openIcon);
 						action: [ self loadSimulation. ] ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Visualize';
-						icon: (self iconNamed: #visualizeIcon);
-						action: [ self visualize: self aModel 
-											on: #theCMECECVegetationUnits
-											with: #biomass. ]  ].
+						icon: (self iconNamed: #nautilusIcon);
+						subMenu: self subMenu. ].
 			group
 				addItem: [ :item | 
 					item
