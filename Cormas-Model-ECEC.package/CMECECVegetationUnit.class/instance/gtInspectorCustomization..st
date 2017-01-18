@@ -4,13 +4,15 @@ gtInspectorCustomization: composite
 	^ composite table
 		title: 'CMECEC Vegetation Unit';
 		display: [ {
-			'id' -> self id asString.
-			'biomass' -> self biomass asString.
-			"'package name' -> self name.
-			'repository url' -> self repositoryUrl."
-			"'description' -> (self description ifNil: [ '' ]).
-			'contact info' -> (self contactInfo ifNil: [ '' ]).
-			'keywords' -> (Character space join: self keywords)."
+			'ID' -> self id asString.
+			'Biomass' -> self biomass asString.
+			'PoV Atrributes' -> self pov asString.
+			
+			"neighbourID := Array new: self orderedNeighbourhood size. 
+	      neighbourID := self orderedNeighbourhood collect: [:entity | entity id ].
+	
+	      neighbourBiomass := Array new: self orderedNeighbourhood size. 
+	      neighbourBiomass := self orderedNeighbourhood collect: [:entity | entity biomass ]."
 			} ];
 		column: 'Key' evaluated: #key;
 		column: 'Value' evaluated: #value;
