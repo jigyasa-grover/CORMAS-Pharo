@@ -4,6 +4,7 @@ gtInspectorCustomization: composite
 	^ composite table
 		title: 'CMECEC Vegetation Unit';
 		display: [ {
+			'id' -> self id asString.
 			'biomass' -> self biomass asString.
 			"'package name' -> self name.
 			'repository url' -> self repositoryUrl."
