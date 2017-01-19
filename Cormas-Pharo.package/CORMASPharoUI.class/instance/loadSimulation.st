@@ -36,4 +36,5 @@ loadSimulation
 			view elements do: #updateShape ].
 	anim inView: view.
 	modelClasses := aModel data.
+	self visualizationSubMenu.
 	view signalUpdate
