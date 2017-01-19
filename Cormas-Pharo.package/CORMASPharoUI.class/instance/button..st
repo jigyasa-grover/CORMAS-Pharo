@@ -1,3 +1,3 @@
 accessing
 button: anObject
-	button := anObject.
+	button := anObject

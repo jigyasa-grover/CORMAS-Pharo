@@ -1,6 +1,3 @@
-control
+accessing
 pov
-
-	^ self class pallete
-		rtValue: (self biomass / 10.0)
-		
+	^ self class pallete rtValue: self biomass / 10.0

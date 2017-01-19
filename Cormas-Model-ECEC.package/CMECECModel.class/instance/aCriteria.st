@@ -1,3 +1,3 @@
 accessing
 aCriteria
-	^aCriteria.
+	^ aCriteria

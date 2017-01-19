@@ -1,3 +1,3 @@
 accessing
 aUnit: anObject
-	aUnit := anObject.
+	aUnit := anObject

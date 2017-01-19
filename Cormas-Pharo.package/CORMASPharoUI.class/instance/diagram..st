@@ -1,3 +1,3 @@
 accessing
 diagram: anObject
-	diagram := anObject.
+	diagram := anObject

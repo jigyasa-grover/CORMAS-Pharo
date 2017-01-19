@@ -1,3 +1,3 @@
 accessing
 view: aRoassalView
-	view := aRoassalView.
+	view := aRoassalView

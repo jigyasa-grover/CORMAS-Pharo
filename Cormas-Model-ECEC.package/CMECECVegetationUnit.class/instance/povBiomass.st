@@ -1,8 +1,8 @@
 pov
 povBiomass
 	"return a Green Color gradient, according to #biomass"
-	
-	^self
+
+	^ self
 		povAttribute: #biomass
 		min: 0
 		max: self class K

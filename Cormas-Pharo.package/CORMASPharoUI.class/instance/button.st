@@ -1,3 +1,3 @@
 accessing
 button
-	^button.
+	^ button

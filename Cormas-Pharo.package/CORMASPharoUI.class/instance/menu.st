@@ -1,3 +1,3 @@
 accessing
 menu
-	^ menu.
+	^ menu

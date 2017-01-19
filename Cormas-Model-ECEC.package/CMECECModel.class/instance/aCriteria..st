@@ -1,3 +1,3 @@
 accessing
 aCriteria: anObject
-	aUnit := anObject.
+	aUnit := anObject

@@ -1,3 +1,3 @@
 accessing
 diagram
-	^ diagram.
+	^ diagram

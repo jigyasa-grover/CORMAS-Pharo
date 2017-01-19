@@ -1,3 +1,3 @@
-accessing
+api
 title
-	^ 'Cormas ECEC Model Example'.
+	^ 'Cormas ECEC Model Example'

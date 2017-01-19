@@ -1,13 +1,10 @@
 initialization
 initializeWidgets
-
 	manager := self newTabManager.
 	manager whenTabSelected: [ self updateTitle ].
 	self populateManager.
-
 	label := self newLabel.
-	label label: 'Simple example of combining Roassal and Spec for CORMAS' .
-	
+	label label: 'Simple example of combining Roassal and Spec for CORMAS'.
 	menu := MenuModel new
 		addGroup: [ :group | 
 			group
@@ -15,37 +12,37 @@ initializeWidgets
 					item
 						name: 'Load';
 						icon: (self iconNamed: #openIcon);
-						action: [ self loadSimulation. ] ].
+						action: [ self loadSimulation ] ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Visualize';
 						icon: (self iconNamed: #nautilusIcon);
-						subMenu: self visualizationSubMenu. ].
+						subMenu: self visualizationSubMenu ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Run';
 						icon: (self iconNamed: #testGreen);
-						action: [  ]  ].
+						action: [  ] ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Stop';
 						icon: (self iconNamed: #smallWarningIcon);
-						action: [ aModel simManager finishSimulation. ]  ].
+						action: [ aModel simManager finishSimulation ] ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Reset';
 						icon: (self iconNamed: #testGreen);
-						action: [ aModel resetCells.]  ].
+						action: [ aModel resetCells ] ].
 			group
 				addItem: [ :item | 
 					item
 						name: 'Pick Cell';
 						icon: (self iconNamed: #testGreen);
-						action: [ aModel pickCell.]  ].
+						action: [ aModel pickCell ] ].
 			group
 				addItem: [ :item | 
 					item
@@ -83,7 +80,8 @@ initializeWidgets
 						icon: (self iconNamed: #smallRedoIcon);
 						action: [ self inform: 'Redo' ] ] ].
 	menu applyTo: self.
-
-	diagram := self instantiate: RoassalModel.	
-	diagram script: [ :aView :canvas | self view: aView. aView @ RTDraggableView ].
-	
+	diagram := self instantiate: RoassalModel.
+	diagram
+		script: [ :aView :canvas | 
+			self view: aView.
+			aView @ RTDraggableView ]
