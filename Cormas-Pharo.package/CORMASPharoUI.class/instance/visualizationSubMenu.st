@@ -1,6 +1,5 @@
-initialization
+visualization
 visualizationSubMenu
-	| methods |
 	methods := self collectAtttributeSelectors: CMECECVegetationUnit withTag: #accessing.
 	^ MenuModel new
 		addGroup: [ :group | 
@@ -9,7 +8,7 @@ visualizationSubMenu
 					group
 						addItem: [ :item | 
 							item
-								name: m asString;
+								name: m name asString;
 								icon: (self iconNamed: #nautilusIcon);
 								shortcut: $o meta;
 								action: [ self visualize: self aModel on: #theCMECECVegetationUnits with: #biomass ] ] ] ]
