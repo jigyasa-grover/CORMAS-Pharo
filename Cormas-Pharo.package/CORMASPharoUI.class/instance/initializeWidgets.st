@@ -33,13 +33,19 @@ initializeWidgets
 					item
 						name: 'Stop';
 						icon: (self iconNamed: #smallWarningIcon);
-						action: [  ]  ].
+						action: [ aModel simManager finishSimulation. ]  ].
 			group
 				addItem: [ :item | 
 					item
-						name: 'File';
-						icon: (self iconNamed: #openIcon);
-						subMenu: self subMenu ].
+						name: 'Reset';
+						icon: (self iconNamed: #testGreen);
+						action: [ aModel resetCells.]  ].
+			group
+				addItem: [ :item | 
+					item
+						name: 'Pick Cell';
+						icon: (self iconNamed: #testGreen);
+						action: [ aModel pickCell.]  ].
 			group
 				addItem: [ :item | 
 					item
