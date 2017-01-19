@@ -35,4 +35,5 @@ loadSimulation
 		blockToExecute: [ aModel runStep.
 			view elements do: #updateShape ].
 	anim inView: view.
+	modelClasses := aModel data.
 	view signalUpdate

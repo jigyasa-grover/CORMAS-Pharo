@@ -12,7 +12,8 @@
 		"label",
 		"menu",
 		"manager",
-		"aModel"
+		"aModel",
+		"modelClasses"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"
