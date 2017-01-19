@@ -19,6 +19,8 @@ visualize: aCMModel on: aUnit with: aCriteria
 	ds points: data.
 	
 	g add: ds.
+	g maxXFromDataSets.
+	g maxYFromDataSets.
 	"g axisX noTick; noLabel."
 	g build.
 	c group: #graph.

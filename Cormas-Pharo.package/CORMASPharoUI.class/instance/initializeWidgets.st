@@ -21,7 +21,7 @@ initializeWidgets
 					item
 						name: 'Visualize';
 						icon: (self iconNamed: #nautilusIcon);
-						subMenu: self subMenu. ].
+						subMenu: self visualizationSubMenu. ].
 			group
 				addItem: [ :item | 
 					item
