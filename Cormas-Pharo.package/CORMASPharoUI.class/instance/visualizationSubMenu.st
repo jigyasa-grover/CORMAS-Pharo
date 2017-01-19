@@ -7,13 +7,17 @@ visualizationSubMenu
 			modelClasses
 				ifNotNil: [ modelClasses
 						keysDo: [ :aModelClass | 
-							attributeSelectors := self collectAtttributeSelectors: aModelClass withTag: #accessing.
+							attributeSelectors := self
+								collectAtttributeSelectors:
+									(self class environment at: aModelClass)
+								withTag: #accessing.
 							attributeSelectors
 								ifNotNil: [ :anAttributeSelectors | 
 									group
 										addItem: [ :item | 
 											item
-												name: anAttributeSelectors name asString;
+												name: anAttributeSelectors asString;
 												icon: (self iconNamed: #nautilusIcon);
 												shortcut: $o meta;
-												action: [ self visualize: self aModel on: #CMECECVegetationUnit with: #biomass ] ] ] ] ] ]
+												action:
+														[ self visualize: self aModel on: #CMECECVegetationUnit with: #biomass ] ] ] ] ] ]
