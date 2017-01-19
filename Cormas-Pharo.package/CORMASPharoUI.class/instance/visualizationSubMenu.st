@@ -1,5 +1,6 @@
 visualization
 visualizationSubMenu
+	|methods|
 	methods := self collectAtttributeSelectors: CMECECVegetationUnit withTag: #accessing.
 	^ MenuModel new
 		addGroup: [ :group | 
