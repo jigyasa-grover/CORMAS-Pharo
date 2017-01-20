@@ -12,7 +12,7 @@ initializeWidgets
 					item
 						name: 'Load';
 						icon: (self iconNamed: #openIcon);
-						action: [ diagram ifNotNil: self loadSimulation ] ].
+						subMenu: self loadSubMenu ].
 			group
 				addItem: [ :item | 
 					item

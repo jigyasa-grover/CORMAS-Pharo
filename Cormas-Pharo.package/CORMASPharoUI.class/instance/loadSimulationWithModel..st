@@ -1,13 +1,11 @@
-initialization
-loadSimulation
+loading
+loadSimulationWithModel: aCORMASModel
 	"Vegetation grid animation without foragers"
 
 	| n c es anim popup |
-	aModel := CMECECModel
+	aModel := aCORMASModel
 		initialize;
 		new.
-
-	"v := RTView new."
 	n := RTMultiLinearColor new colors: (RTColorPalette sequential colors: 9 scheme: 'YlGnBu').
 	c := n command: [ :cells | cells biomass / 10.0 ].
 	aModel initSimulation.
@@ -35,6 +33,5 @@ loadSimulation
 		blockToExecute: [ aModel runStep.
 			view elements do: #updateShape ].
 	anim inView: view.
-	modelClasses := aModel data.
-	self visualizationSubMenu.
+	"modelClasses := aModel data."
 	view signalUpdate
