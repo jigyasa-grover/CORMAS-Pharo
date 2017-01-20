@@ -5,7 +5,8 @@ initializeWidgets
 	self populateManager.
 	label := self newLabel.
 	label label: 'Simple example of combining Roassal and Spec for CORMAS'.
-	menu := MenuModel new
+	menu := MenuModel new.
+	menu
 		addGroup: [ :group | 
 			group
 				addItem: [ :item | 
@@ -19,6 +20,12 @@ initializeWidgets
 						name: 'Visualize';
 						icon: (self iconNamed: #nautilusIcon);
 						subMenu: self visualizationSubMenu ].
+			group
+				addItem: [ :item | 
+					item
+						name: 'Model Entities';
+						icon: (self iconNamed: #nautilusIcon);
+						subMenu: self entitiesSubMenu ].
 			group
 				addItem: [ :item | 
 					item
@@ -79,6 +86,7 @@ initializeWidgets
 						description: 'Redo';
 						icon: (self iconNamed: #smallRedoIcon);
 						action: [ self inform: 'Redo' ] ] ].
+	menu autoRefresh: true.
 	menu applyTo: self.
 	diagram := self instantiate: RoassalModel.
 	diagram
