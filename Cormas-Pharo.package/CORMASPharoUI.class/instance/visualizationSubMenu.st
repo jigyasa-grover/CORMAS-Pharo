@@ -1,7 +1,6 @@
 visualization
 visualizationSubMenu
 	| attributeSelectors |
-	"modelClasses := CMECECModel data."
 	^ MenuModel new
 		addGroup: [ :group | 
 			modelClasses

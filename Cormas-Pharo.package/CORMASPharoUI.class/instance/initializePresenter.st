@@ -1,2 +1,3 @@
 initialization
 initializePresenter
+	super initializePresenter.

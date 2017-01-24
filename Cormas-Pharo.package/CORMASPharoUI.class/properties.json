@@ -8,11 +8,14 @@
 	"instvars" : [
 		"view",
 		"diagram",
-		"label",
 		"menu",
 		"manager",
 		"aModel",
-		"modelClasses"
+		"modelClasses",
+		"loadMenuGroup",
+		"visualizeMenuGroup",
+		"entitiesMenuGroup",
+		"executionPanelMenuGroup"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"

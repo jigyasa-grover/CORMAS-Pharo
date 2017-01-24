@@ -1,4 +1,4 @@
-visualization
+entities
 entitiesSubMenu
 	^ MenuModel new
 		addGroup: [ :group | 

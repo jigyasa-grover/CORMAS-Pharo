@@ -1,3 +1,3 @@
-UI
+interface
 title
 	^ 'Cormas ECEC Model Example'
