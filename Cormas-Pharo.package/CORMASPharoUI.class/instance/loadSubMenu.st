@@ -10,7 +10,7 @@ loadSubMenu
 						shortcut: $o meta;
 						action: [ self loadSimulationWithModel: CMECECModel.
 							self needRebuild: false
-							"self buildWithSpecLayout: self class defaultSpe" ] ].
+							"self buildWithSpecLayout: self class defaultSpec" ] ].
 			self needRebuild: false.
 			"self buildWithSpecLayout: self class defaultSpec."
 			group
@@ -19,6 +19,8 @@ loadSubMenu
 						name: 'CM FireAutomata Model';
 						icon: (self iconNamed: #nautilusIcon);
 						shortcut: $o meta;
-						action: [ self loadSimulationWithModel: CMFireAutomataModel ] ].
-			self needRebuild: false
-			"self buildWithSpecLayout: self class defaultSpec" ]
+						action: [ self loadSimulationWithFireAutomataModel.
+							self needRebuild: false
+							"self buildWithSpecLayout: self class defaultSpe" ].
+					self needRebuild: false
+					"self buildWithSpecLayout: self class defaultSpec" ] ]
