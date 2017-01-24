@@ -27,10 +27,9 @@ loadSimulationWithModel: aCORMASModel
 		lineItemsCount: aModel spaceModel column;
 		on: view elements.
 	view canvas camera focusOnCenterScaled.
-	anim := RTActiveAnimation new.
-	"anim intervalInMilliseconds: 0."
+	"anim := RTActiveAnimation new.
 	anim
 		blockToExecute: [ aModel runStep.
 			view elements do: #updateShape ].
 	anim inView: view.
-	view signalUpdate
+	view signalUpdate"
