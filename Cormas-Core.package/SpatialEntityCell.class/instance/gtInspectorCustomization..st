@@ -1,4 +1,4 @@
-as yet unclassified
+customization
 gtInspectorCustomization: composite
 	<gtInspectorPresentationOrder: -10>
 	^ composite table
