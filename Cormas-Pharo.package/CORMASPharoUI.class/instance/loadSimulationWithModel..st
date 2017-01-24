@@ -16,7 +16,7 @@ loadSimulationWithModel: aCORMASModel
 	view addAll: elements.
 
 	"Adding a popup for biomass info on hover"
-	self onHoverPopup.
+	self onHoverPopup: elements.
 
 	"Adding a popup for object inspection on left click"
 	elements do: [ :element | element when: TRMouseLeftClick do: [ :evt | element model inspect ] ].
