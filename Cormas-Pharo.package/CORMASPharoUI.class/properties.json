@@ -15,7 +15,8 @@
 		"loadMenuGroup",
 		"visualizeMenuGroup",
 		"entitiesMenuGroup",
-		"executionPanelMenuGroup"
+		"executionPanelMenuGroup",
+		"elements"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"

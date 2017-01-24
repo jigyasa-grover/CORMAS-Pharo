@@ -1,4 +1,4 @@
-as yet unclassified
+execution
 animateSimulation
 	| anim |
 	anim := RTActiveAnimation new.
