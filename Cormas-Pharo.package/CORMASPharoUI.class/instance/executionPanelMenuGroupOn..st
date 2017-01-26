@@ -17,4 +17,4 @@ executionPanelMenuGroupOn: aMenuGroupModel
 			anItem
 				name: 'Reset';
 				icon: (self iconNamed: #testGreen);
-				action: [ aModel resetCells ] ]
+				action: [ self resetSimulation ] ]

@@ -16,7 +16,8 @@
 		"visualizeMenuGroup",
 		"entitiesMenuGroup",
 		"executionPanelMenuGroup",
-		"elements"
+		"elements",
+		"anim"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"

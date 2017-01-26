@@ -1,8 +1,7 @@
 execution
-animateSimulation
-	anim := RTActiveAnimation new.
+resetSimulation
 	anim
-		blockToExecute: [ aModel runStep.
+		blockToExecute: [ aModel initSimulation. aModel runStep.
 			view elements do: #updateShape ].
 	anim inView: view.
 	view signalUpdate
