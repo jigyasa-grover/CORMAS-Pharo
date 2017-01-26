@@ -1,12 +1,12 @@
-execution
+undo-redo
 undoRedoMenuGroupOn: aMenuGroupModel
-	undoRedoMenugroup 
+	undoRedoMenugroup
 		addItem: [ :anItem | 
 			anItem
 				name: 'Undo';
 				icon: (self iconNamed: #smallUndoIcon);
-				action: [  ] ].
-	undoRedoMenugroup 
+				action: [ self undoDialogBox ] ].
+	undoRedoMenugroup
 		addItem: [ :anItem | 
 			anItem
 				name: 'Redo';

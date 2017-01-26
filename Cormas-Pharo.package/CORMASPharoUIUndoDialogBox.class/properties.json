@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ComposableModel",
+	"category" : "Cormas-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"okButton",
+		"undoButton"
+	],
+	"name" : "CORMASPharoUIUndoDialogBox",
+	"type" : "normal"
+}

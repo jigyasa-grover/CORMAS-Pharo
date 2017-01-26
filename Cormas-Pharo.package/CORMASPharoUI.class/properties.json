@@ -18,7 +18,8 @@
 		"executionPanelMenuGroup",
 		"elements",
 		"anim",
-		"undoRedoMenugroup"
+		"undoRedoMenugroup",
+		"okButton"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"
