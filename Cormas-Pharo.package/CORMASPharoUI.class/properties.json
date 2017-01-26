@@ -17,7 +17,8 @@
 		"entitiesMenuGroup",
 		"executionPanelMenuGroup",
 		"elements",
-		"anim"
+		"anim",
+		"undoRedoMenugroup"
 	],
 	"name" : "CORMASPharoUI",
 	"type" : "normal"

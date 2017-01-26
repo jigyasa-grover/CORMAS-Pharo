@@ -10,9 +10,11 @@ populateMenu
 			self entitiesMenuGroupOn: entitiesMenuGroup.
 			executionPanelMenuGroup := group.
 			self executionPanelMenuGroupOn: group.
-			group
+			undoRedoMenugroup := group.
+			self undoRedoMenuGroupOn: group
+			"group
 				addItem: [ :item | 
 					item
 						name: 'Pick Cell';
 						icon: (self iconNamed: #testGreen);
-						action: [ aModel pickCell ] ] ]
+						action: [ aModel pickCell ] ]" ]
