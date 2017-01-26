@@ -4,7 +4,7 @@ executionPanelMenuGroupOn: aMenuGroupModel
 		addItem: [ :anItem | 
 			anItem
 				name: 'Run';
-				icon: (self iconNamed: #runExample);
+				icon: (self iconNamed: #exampleIcon);
 				action: [ self animateSimulation ] ].
 	executionPanelMenuGroup
 		addItem: [ :anItem | 
@@ -16,5 +16,5 @@ executionPanelMenuGroupOn: aMenuGroupModel
 		addItem: [ :anItem | 
 			anItem
 				name: 'Reset';
-				icon: (self iconNamed: #testGreen);
+				icon: (self iconNamed: #refreshIcon);
 				action: [ self resetSimulation ] ]

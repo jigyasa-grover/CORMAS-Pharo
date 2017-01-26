@@ -4,4 +4,5 @@ loadMenuGroupOn: aMenuGroupModel
 		addItem: [ :anItem | 
 			anItem
 				name: 'Load';
-				subMenu: self loadSubMenu ].
+				icon: (self iconNamed: #packageAddIcon);
+				subMenu: self loadSubMenu ]
