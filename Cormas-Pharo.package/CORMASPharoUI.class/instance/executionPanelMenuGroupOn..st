@@ -4,7 +4,7 @@ executionPanelMenuGroupOn: aMenuGroupModel
 		addItem: [ :anItem | 
 			anItem
 				name: 'Run';
-				icon: (self iconNamed: #exampleIcon);
+				icon: (self iconNamed: #smallDoItIcon);
 				action: [ self animateSimulation ] ].
 	executionPanelMenuGroup
 		addItem: [ :anItem | 
