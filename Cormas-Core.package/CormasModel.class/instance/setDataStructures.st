@@ -15,6 +15,7 @@ setDataStructures
 	self class allClasses
 		do:
 			[:c | 
+			"c = CMECECVegetationUnit ifTrue: [ self halt ]."
 			c activeProbes isEmpty
 				ifFalse:
 					[self data

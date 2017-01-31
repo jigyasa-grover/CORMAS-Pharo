@@ -8,8 +8,9 @@ loadSubMenu
 						name: 'CMECEC Model';
 						icon: (self iconNamed: #nautilusIcon);
 						shortcut: $o meta;
-						action: [ self loadSimulationWithModel: CMECECModel.
-							self needRebuild: false
+						action: [ self loadSimulationWithModel: CMECECModel
+
+							"self needRebuild: false"
 							"self buildWithSpecLayout: self class defaultSpec" ] ].
 			self needRebuild: false.
 			"self buildWithSpecLayout: self class defaultSpec."
